@@ -40,7 +40,79 @@
         }
 
         .nav-bar-icon {
-            
+            position: absolute;
+            top: 3rem;
+            right: 3rem;
+        }
+    }
+
+    .wrapper-projects  {
+        height: auto;
+        padding: 1rem;
+        flex-direction: column;
+
+        .polaroid {
+            width: 75vw;
+        }
+    }
+
+    .wrapper-img-banner {
+        height: 25vh;
+
+        .img-box {
+            height: 20vh;
+        }
+    }
+
+    .wrapper-footer {
+        
+        .line {
+            top: 0.5rem;
+        }
+    }
+}
+
+//Landscape
+
+@include mediaSmLand {
+
+    .container {
+        .logo {
+            img{
+                position: absolute;
+                top: 8vh;
+                left: 5vw;
+            }
+
+            h2 {
+                font-size: 1.8rem;
+            }
+
+            .line {
+                position: absolute;
+                top: 22vh;
+            }
+        }
+
+        .nav-bar-icon {
+            position: absolute;
+            top: 8vh;
+            right: 5vw;
+        }
+    }
+
+    .wrapper-img-banner {
+        height: 25vh;
+
+        .img-box {
+            height: 20vh;
+        }
+    }
+
+    .wrapper-footer {
+        height: 30vh;
+        .line {
+            top: 0.5rem;
         }
     }
 }

@@ -82,6 +82,8 @@
   .polaroid .pol-container {
     text-align: center;
     padding: 10px 20px; }
+    .polaroid .pol-container h3 {
+      color: #d4ac73; }
 
 #about {
   background: #dce6ef; }
@@ -177,4 +179,43 @@
   .middle, .right {
     display: none; }
   .container .logo h2 {
-    font-size: 1.8rem; } }
+    font-size: 1.8rem; }
+  .container .nav-bar-icon {
+    position: absolute;
+    top: 3rem;
+    right: 3rem; }
+  .wrapper-projects {
+    height: auto;
+    padding: 1rem;
+    flex-direction: column; }
+    .wrapper-projects .polaroid {
+      width: 75vw; }
+  .wrapper-img-banner {
+    height: 25vh; }
+    .wrapper-img-banner .img-box {
+      height: 20vh; }
+  .wrapper-footer .line {
+    top: 0.5rem; } }
+
+@media screen and (max-height: 550px) {
+  .container .logo img {
+    position: absolute;
+    top: 8vh;
+    left: 5vw; }
+  .container .logo h2 {
+    font-size: 1.8rem; }
+  .container .logo .line {
+    position: absolute;
+    top: 22vh; }
+  .container .nav-bar-icon {
+    position: absolute;
+    top: 8vh;
+    right: 5vw; }
+  .wrapper-img-banner {
+    height: 25vh; }
+    .wrapper-img-banner .img-box {
+      height: 20vh; }
+  .wrapper-footer {
+    height: 30vh; }
+    .wrapper-footer .line {
+      top: 0.5rem; } }
