@@ -1,0 +1,238 @@
+@import 'config';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: $font;
+    box-sizing: border-box;
+    
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+//HEAD CONTENT
+
+
+
+.logo {
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $primary-color;
+
+    img {
+        width: 30px;
+        position: relative;
+        bottom: 0.7rem;
+    }
+
+    h2 {
+        font-size: 2.6rem;
+        letter-spacing: 0.5rem;
+    }
+
+    h4 {
+        
+    }
+
+    .line {
+        width: 90%;
+        height: 2px;
+        position: relative;
+        top: 1rem;
+        background: $secondary-color;
+    }
+}
+
+.nav-bar-icon {
+    position: absolute;
+    top: 3.5rem;
+    right: 5rem;
+
+    .icon {
+        color: $secondary-color;
+    }
+}
+
+    
+
+
+//HERO BANNER
+
+.hero-banner {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+
+
+    .banner-img {
+        flex: 1;
+        height: 75vh;
+        
+        
+    }
+}
+
+.left {
+    background: url('../img/product_04_l.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.middle {
+    background: url('../img/tetaer_03_l.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.right {
+    background: url('../img/product_05_l.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+//Projects Polaroid Boxes
+
+.wrapper-projects {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.polaroid {
+    width: 25vw;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .pol-container {
+        text-align: center;
+        padding: 10px 20px;
+      }
+  }
+
+  //ABOUT
+
+  #about {
+      background: $secondary-bg;      
+  }
+
+  .wrapper-about {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .about-img {
+        width: 25vw;
+
+        img {
+            width: 100%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+    }
+
+    .about-text {
+        width: 50vw;
+    }
+}
+
+//IMAGE BANNER
+
+.wrapper-img-banner {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+    .img-box {
+        flex: 1;
+        height: 40vh;
+    }
+}
+
+.one {
+    background: url('../img/tetaer_03_l.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.two {
+    background: url('../img/product_01_l.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.three {
+    background: url('../img/tetaer_05_l.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.four {
+    background: url('../img/product_05_l.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.five {
+    background: url('../img/tetaer_08_l.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+//FOOTER
+
+.wrapper-footer {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    img {
+        width: 30px;
+        position: relative;
+        top: 1rem;
+    }
+
+    .line {
+        width: 90%;
+        height: 2px;
+        position: relative;
+        top: 1rem;
+        background: $secondary-color;
+    } 
+
+    p {
+        color: $primary-color
+    }
+
+}
+
+
+
+
+@import 'mobile';

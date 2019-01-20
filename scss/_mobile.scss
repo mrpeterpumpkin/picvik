@@ -1,0 +1,46 @@
+// Wide screens
+@include mediaXl {
+    
+}
+
+// Desktops & Laptops
+@include mediaLg {
+    
+}
+
+// Tablets
+@include mediaMd {
+    .wrapper-about {
+        height: auto;
+        flex-direction: column;
+        padding: 2rem;
+
+        .about-img {
+            width: 45vw;
+            margin-bottom: 1rem;
+        }
+
+        .about-text {
+            width: 70vw;
+        }
+    }
+}
+
+// Smartphones
+@include mediaSm {
+    .middle, .right {
+        display: none;
+    }
+
+    .container {
+        .logo {
+            h2 {
+                font-size: 1.8rem;
+            }
+        }
+
+        .nav-bar-icon {
+            
+        }
+    }
+}
