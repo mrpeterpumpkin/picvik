@@ -272,5 +272,38 @@ header {
 
 }
 
+//CONTACT
+
+.contact-wrapper {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .contact-icon {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .contact-text {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-left: 1rem;
+        p {
+            color: #666;
+        }
+    }
+
+    .fab, .fas {
+        color: $primary-color;
+    }
+}
+
 
 @import 'mobile';

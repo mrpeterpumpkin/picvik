@@ -33,16 +33,18 @@
     }
 
     .container {
-        .logo {
-            h2 {
-                font-size: 1.8rem;
-            }
-        }
+        
 
         .nav-bar-icon {
             position: absolute;
             top: 3rem;
             right: 3rem;
+        }
+    }
+
+    .logo {
+        h2 {
+            font-size: 1.8rem;
         }
     }
 
