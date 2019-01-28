@@ -166,6 +166,11 @@ header {
 
     .about-text {
         width: 50vw;
+        color: $primary-color;
+
+        h3 {
+            margin-bottom: 1rem;
+        }
     }
 }
 

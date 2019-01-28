@@ -193,7 +193,7 @@ header {
       color: #d4ac73; }
 
 #about {
-  background: #dce6ef; }
+  background: #eef3f7; }
 
 .wrapper-about {
   width: 100%;
@@ -208,7 +208,10 @@ header {
       width: 100%;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
   .wrapper-about .about-text {
-    width: 50vw; }
+    width: 50vw;
+    color: #d4ac73; }
+    .wrapper-about .about-text h3 {
+      margin-bottom: 1rem; }
 
 .wrapper-img-banner {
   width: 100%;
