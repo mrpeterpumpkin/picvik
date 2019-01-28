@@ -91,19 +91,19 @@ header {
 }
 
 .left {
-    background: url('../img/product_04_l.JPG');
+    background: url('../img/tetaer_06_l.JPG');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 .middle {
-    background: url('../img/tetaer_03_l.JPG');
+    background: url('../img/product_08_l.JPG');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 .right {
-    background: url('../img/product_05_l.JPG');
+    background: url('../img/kvinnan1l.JPG');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -275,26 +275,23 @@ header {
 //CONTACT
 
 .contact-wrapper {
-    height: 50vh;
     display: flex;
     justify-content: center;
-    align-items: center;
 
     .contact-icon {
-        height: 100%;
+        width: 30vw;
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-end;
+        justify-content: flex-end;
+        align-items: center;
+        margin-bottom: 1.5rem;
     }
 
     .contact-text {
-        height: 100%;
+        width: 30vw;
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-start;
-        margin-left: 1rem;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0 0 1.5rem 1rem;
         p {
             color: #666;
         }
